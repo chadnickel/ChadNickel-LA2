@@ -1,0 +1,38 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.main-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 12fr 1fr;
+
+}
+
+.row-one,
+.row-two,
+.row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    padding: 3px;
+
+}
+
+.row-two {
+    background-color: lightslategray;
+}
+
+.container-padding {
+    margin: 6px;
+    border: 1px dashed rgb(252, 181, 2);
+}
